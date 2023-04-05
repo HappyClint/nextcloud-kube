@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>group_everyone</id>
+	<name>Everyone Group</name>
+	<summary>Adds a virtual "Everyone" group</summary>
+	<description>
+		Adds a virtual "Everyone" group.
+	</description>
+
+	<version>0.1.12</version>
+	<licence>agpl</licence>
+	<author>Robin Appelman</author>
+
+	<namespace>GroupEveryone</namespace>
+
+	<types>
+		<authentication/>
+	</types>
+
+	<category>tools</category>
+
+	<website>https://github.com/icewind1991/group_everyone</website>
+	<bugs>https://github.com/icewind1991/group_everyone/issues</bugs>
+	<repository type="git">https://github.com/icewind1991/group_everyone.git</repository>
+
+	<dependencies>
+		<nextcloud min-version="24" max-version="26" />
+	</dependencies>
+</info>
