@@ -172,6 +172,5 @@ RUN mkdir /var/www/html/data && chown www-data:root -R /var/www/html/data; \
     chmod u=rwX,g=rwX,o= -R /var/www/html/
 
 WORKDIR /var/www/html
-COPY *.sh  /
 ENTRYPOINT ["docker-php-entrypoint"]
 CMD ["apache2-foreground"]
